@@ -172,10 +172,11 @@ endmenu
 RT-Thread Components --->
    Utiliess --->
        [*] Enable ulog 
-       	    (1024) The log's max width.
+            The static output log level. (Debug)  --->     
+    	    (1024) The log's max width.
        	    log format  --->
        	        [*] Enable float number support. It will using more thread stack.                                                   [*] Enable color log.
-            [*]   Enable runtime log filter.	
+            [*]   Enable runtime log filter.   	
 ```
 
 - ulog使用示例： 设置ulog日志过滤等级为Info
@@ -402,4 +403,4 @@ lgd test shell当前支持的shell操作如下所示
       - 支持单\双向\主\从通信等
 
 # 7 问题和建议
-如果有什么问题或者建议欢迎提交 [Issue](https://github.com/Forest-Rain/lora-radio-driver/issues) 进行讨论。
+如果有什么问题或者建议欢迎提交 [Issue](https://github.com/Forest-Rain/lora-gw-driver-lib/issues) 进行讨论。
