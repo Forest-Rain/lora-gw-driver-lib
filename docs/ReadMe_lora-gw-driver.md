@@ -61,7 +61,7 @@ lora-gw-driver软件包(以下简称lgd)是基于RTOS( RT-Thread ) 实现的LoRa
 
 ## 2.1 lora-gw-driver-lib软件包功能框图
 
-![lora-gw-driver功能框图](images\lgd-function-block.png)
+![lora-gw-driver功能框图](images/lgd-function-block.png)
 
 lora-gw-driver-lib主要实现了SX1302模块的SPI方式寄存器读写控制、数据收发、lorawan解析服务、lora数据包格式化等功能
 
@@ -79,7 +79,7 @@ lora-gw-driver-teser用于测试\演示lora-gw-driver的使用等，基于finish
 
 - - Device模式，sx130x模拟lora终端设备，sx130x主动发送ping包，等待接收设备回发ack。
 
-- - ![lgd-ping数据通信流程](images\lgd-ping-testflow.png)
+- - ![lgd-ping数据通信流程](images/lgd-ping-testflow.png)
 
 ## 2.2 lora-gw-driver-lib软件包组织结构
 
