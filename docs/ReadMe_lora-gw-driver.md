@@ -41,10 +41,10 @@ lora-gw-driver软件包(以下简称lgd)是基于RTOS( RT-Thread ) 实现的LoRa
       - SX130X
          - SX1302
             - [x] [LSD4WN-2K730NE0 (CN470频段)]([产品详情-利尔达科技集团股份有限公司 - 利尔达提供整套LoRaWAN系统解决方案 (lierda.com)](http://wsn.lierda.com/index.php/Home/Product/detail/id/100.html))
-              - TX: 470~510 MHz，最大功率~22dBm
+              - TX: 470~510 MHz，最大功率约22dBm
               - RX: 470~480 MHz
             - [ ] [LSD4WN-2K830NE0 (EU868频段)]([产品详情-利尔达科技集团股份有限公司 - 利尔达提供整套LoRaWAN系统解决方案 (lierda.com)](http://wsn.lierda.com/index.php/Home/Product/detail/id/99.html))
-              - TX: 860~870 MHz，最大功率~22dBm
+              - TX: 860~870 MHz，最大功率约27dBm
               - RX: 860~870 MHz
 - 当前测试的MCU平台
    - 硬件平台独立，可用于不同硬件平台
